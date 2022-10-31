@@ -1,0 +1,35 @@
+@font-face {
+  font-family: InterVariableFont;
+  src: url(./assets/fonts/Inter-VariableFont_slnt\wght.ttf) format("ttf");
+}
+@font-face {
+  font-family: InterStaticBold;
+  src: url(./assets/fonts/static/Inter-Bold.ttf);
+}
+@font-face {
+  font-family: InterStaticBolder;
+  src: url(./assets/fonts/static/Inter-ExtraBold.ttf);
+}
+@font-face {
+  font-family: InterStaticRegular;
+  src: url(./assets/fonts/static/Inter-Regular.ttf);
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.intro {
+    font-family:sans-serif;
+}
+
+.card-news {
+    background-color:hsl(240, 100%, 5%)
+}
+
+.btn {
+    background-color:hsl(5, 85%, 63%) ;
+}
+.card-header {
+    color: hsl(35, 77%, 62%);
+}
